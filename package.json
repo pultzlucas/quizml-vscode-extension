@@ -1,0 +1,25 @@
+{
+    "name": "quizml",
+    "displayName": "QuizML",
+    "description": "HighLighting extension to the Quiz Markup Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "quizml",
+            "aliases": ["Quiz Markup Language", "quizml"],
+            "extensions": [".quiz"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "quizml",
+            "scopeName": "source.quiz",
+            "path": "./syntaxes/quizml.tmLanguage.json"
+        }]
+    }
+}
