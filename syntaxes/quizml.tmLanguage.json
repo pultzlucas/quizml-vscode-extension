@@ -15,17 +15,6 @@
 				"name": "keyword.control.quizml",
 				"match": "->|<-"
 			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.quizml",
-			"begin": "",
-			"end": "\n",
-			"patterns": [
-				{
-					"name": "constant.character.escape.quizml",
-					"match": "\\\\."
-				}
-			]
 		}
 	},
 	"scopeName": "source.quiz"

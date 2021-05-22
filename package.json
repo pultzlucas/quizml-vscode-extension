@@ -3,6 +3,11 @@
     "displayName": "QuizML",
     "description": "HighLighting extension to the Quiz Markup Language",
     "version": "0.0.1",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Lucas-Lopes-Pultz/quizml-vscode-extension"
+    },
     "engines": {
         "vscode": "^1.56.0"
     },
