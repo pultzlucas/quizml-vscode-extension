@@ -3,7 +3,8 @@
     "displayName": "QuizML",
     "description": "HighLighting extension to the Quiz Markup Language",
     "version": "0.0.1",
-    "icon": "icon.png",
+    "homepage": "https://github.com/Lucas-Lopes-Pultz/quizml-vscode-extension/blob/master/README.md",
+    "icon": "images/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/Lucas-Lopes-Pultz/quizml-vscode-extension"
@@ -15,6 +16,13 @@
         "Programming Languages"
     ],
     "contributes": {
+        "iconThemes": [
+            {
+                "id": "quizml",
+                "label": "QuizML",
+                "path": "./fileicons/quizml-icon-theme.json"
+            }
+        ],
         "languages": [{
             "id": "quizml",
             "aliases": ["Quiz Markup Language", "quizml"],
