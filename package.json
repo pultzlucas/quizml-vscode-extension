@@ -15,6 +15,11 @@
     "categories": [
         "Programming Languages"
     ],
+    "keywords": [
+        "quizml",
+        "quiz",
+        "Quiz Markup Language"
+    ],
     "contributes": {
         "iconThemes": [
             {
