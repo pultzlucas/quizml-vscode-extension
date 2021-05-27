@@ -2,7 +2,7 @@
     "name": "quizml",
     "displayName": "QuizML",
     "description": "HighLighting extension to the Quiz Markup Language",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "icon": "icon.png",
     "homepage": "https://github.com/Lucas-Lopes-Pultz/quizml-vscode-extension/#README.md",
     "publisher": "pultzlucas",
