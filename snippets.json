@@ -1,6 +1,6 @@
 {
     "question": {
-        "prefix": ["(", "()"],
-        "body": ["(","\t->${1:text}","\t<-${2:expected}","),","$0"]
+        "prefix": ["()"],
+        "body": ["(","\t-> ${1:text}","\t<- ${2:expected}","),","$0"]
       }
 }
