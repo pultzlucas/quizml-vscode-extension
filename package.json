@@ -1,9 +1,10 @@
 {
     "name": "quizml",
     "displayName": "QuizML",
-    "description": "HighLighting extension to the Quiz Markup Language",
+    "description": "HighLighting and Snippets extension to the Quiz Markup Language",
     "version": "0.2.2",
     "icon": "icon.png",
+    "license": "MIT",
     "homepage": "https://github.com/Lucas-Lopes-Pultz/quizml-vscode-extension/#README.md",
     "publisher": "pultzlucas",
     "repository": {
@@ -46,7 +47,7 @@
         "snippets": [
             {
                 "language": "quizml",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets.json"
             }
         ]
     }
