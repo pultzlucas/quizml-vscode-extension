@@ -22,23 +22,25 @@
         "Quiz Markup Language"
     ],
     "contributes": {
-        "iconThemes": [
+        "languages": [
             {
                 "id": "quizml",
-                "label": "QuizML",
-                "path": "rust-icon.png"
+                "aliases": [
+                    "Quiz Markup Language",
+                    "quizml"
+                ],
+                "extensions": [
+                    ".quiz"
+                ],
+                "configuration": "./language-configuration.json"
             }
         ],
-        "languages": [{
-            "id": "quizml",
-            "aliases": ["Quiz Markup Language", "quizml"],
-            "extensions": [".quiz"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "quizml",
-            "scopeName": "source.quiz",
-            "path": "./syntaxes/quizml.tmLanguage.json"
-        }]
+        "grammars": [
+            {
+                "language": "quizml",
+                "scopeName": "source.quiz",
+                "path": "./syntaxes/quizml.tmLanguage.json"
+            }
+        ]
     }
 }
