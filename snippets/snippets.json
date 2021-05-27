@@ -1,6 +1,6 @@
 {
     "question": {
-        "prefix": ["("],
+        "prefix": ["(", "()"],
         "body": ["(","\t->${1:text}","\t<-${2:expected}","),$0"],
         "description": "A new question."
       }
